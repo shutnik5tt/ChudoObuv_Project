@@ -1,9 +1,10 @@
-﻿<Application x:Class="ChudoObuv_Project.App"
+<Application x:Class="ChudoObuv_Project.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:ChudoObuv_Project"
-             StartupUri="MainWindow.xaml">
+             StartupUri="LoginWindow.xaml">
     <Application.Resources>
-         
+        <SolidColorBrush x:Key="AccentBrush" Color="#70B2AF"/>
+        <SolidColorBrush x:Key="SecondaryBrush" Color="#D2F6E7"/>
+        <SolidColorBrush x:Key="HighlightBrush" Color="#FF8080"/>
     </Application.Resources>
 </Application>
